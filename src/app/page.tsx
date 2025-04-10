@@ -30,17 +30,17 @@ export default function Home() {
           <h2 className="text-3xl font-bold mb-6 text-gray-800">Upcoming Games</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="bg-white rounded-lg shadow-md p-6">
-              <h3 className="text-xl font-semibold mb-2">vs. Clarksville High</h3>
+              <h3 className="text-xl font-semibold mb-2 text-black">vs. Clarksville High</h3>
               <p className="text-gray-600">Friday, September 15, 2023</p>
               <p className="text-gray-600">7:00 PM @ Rossview Stadium</p>
             </div>
             <div className="bg-white rounded-lg shadow-md p-6">
-              <h3 className="text-xl font-semibold mb-2">vs. Northwest High</h3>
+              <h3 className="text-xl font-semibold mb-2 text-black">vs. Northwest High</h3>
               <p className="text-gray-600">Friday, September 22, 2023</p>
               <p className="text-gray-600">7:00 PM @ Rossview Stadium</p>
             </div>
             <div className="bg-white rounded-lg shadow-md p-6">
-              <h3 className="text-xl font-semibold mb-2">vs. West Creek High</h3>
+              <h3 className="text-xl font-semibold mb-2 text-black">vs. West Creek High</h3>
               <p className="text-gray-600">Friday, September 29, 2023</p>
               <p className="text-gray-600">7:00 PM @ Rossview Stadium</p>
             </div>
@@ -61,7 +61,7 @@ export default function Home() {
                 />
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-semibold mb-2">Season Opener Victory</h3>
+                <h3 className="text-xl font-semibold mb-2 text-black">Season Opener Victory</h3>
                 <p className="text-gray-600 mb-4">The Hawks started their season with an impressive win against...</p>
                 <a href="/news/season-opener" className="text-blue-600 hover:text-blue-800">
                   Read More →
@@ -78,7 +78,7 @@ export default function Home() {
                 />
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-semibold mb-2">New Coaching Staff Announced</h3>
+                <h3 className="text-xl font-semibold mb-2 text-black">New Coaching Staff Announced</h3>
                 <p className="text-gray-600 mb-4">Rossview High School welcomes new additions to the coaching staff...</p>
                 <a href="/news/coaching-staff" className="text-blue-600 hover:text-blue-800">
                   Read More →
