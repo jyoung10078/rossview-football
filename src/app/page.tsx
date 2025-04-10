@@ -54,7 +54,7 @@ export default function Home() {
             <div className="bg-white rounded-lg shadow-md overflow-hidden">
               <div className="relative h-48 w-full">
                 <Image
-                  src="/images/news1.jpg"
+                  src={RightActionImage}
                   alt="Team Practice"
                   fill
                   className="object-cover object-top"
@@ -71,7 +71,7 @@ export default function Home() {
             <div className="bg-white rounded-lg shadow-md overflow-hidden">
               <div className="relative h-48 w-full">
                 <Image
-                  src="/images/news2.jpg"
+                  src={LeftActionImage}
                   alt="Team Meeting"
                   fill
                   className="object-cover object-top"
