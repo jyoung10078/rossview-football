@@ -92,13 +92,13 @@ export default function Home() {
         <section className="mb-12">
           <h2 className="text-3xl font-bold mb-6 text-gray-800">Quick Links</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <a href="/schedule" className="bg-blue-600 text-white rounded-lg p-6 text-center hover:bg-blue-700 transition-colors">
+            <a href="/schedule" className="bg-red-600 text-white rounded-lg p-6 text-center hover:bg-blue-700 transition-colors">
               <h3 className="text-xl font-semibold">Full Schedule</h3>
             </a>
-            <a href="/roster" className="bg-blue-600 text-white rounded-lg p-6 text-center hover:bg-blue-700 transition-colors">
+            <a href="/roster" className="bg-red-600 text-white rounded-lg p-6 text-center hover:bg-blue-700 transition-colors">
               <h3 className="text-xl font-semibold">Team Roster</h3>
             </a>
-            <a href="/tickets" className="bg-blue-600 text-white rounded-lg p-6 text-center hover:bg-blue-700 transition-colors">
+            <a href="/tickets" className="bg-red-600 text-white rounded-lg p-6 text-center hover:bg-blue-700 transition-colors">
               <h3 className="text-xl font-semibold">Buy Tickets</h3>
             </a>
           </div>
