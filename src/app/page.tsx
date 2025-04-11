@@ -5,7 +5,7 @@ import LeftActionImage from '@/images/rossview-qb-throw.png'
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gray-100">
+    <div className="min-h-screen bg-slate-100">
       {/* Hero Section */}
       <div className="relative h-[60vh] w-full">
         <Image
@@ -27,29 +27,29 @@ export default function Home() {
       <main className="container mx-auto px-4 py-8">
         {/* Upcoming Games */}
         <section className="mb-12">
-          <h2 className="text-3xl font-bold mb-6 text-gray-800">Upcoming Games</h2>
+          <h2 className="text-3xl font-bold mb-6 text-slate-800">Upcoming Games</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="bg-white rounded-lg shadow-md p-6">
               <h3 className="text-xl font-semibold mb-2 text-black">vs. Clarksville High</h3>
-              <p className="text-gray-600">Friday, September 15, 2023</p>
-              <p className="text-gray-600">7:00 PM @ Rossview Stadium</p>
+              <p className="text-slate-600">Friday, September 15, 2023</p>
+              <p className="text-slate-600">7:00 PM @ Rossview Stadium</p>
             </div>
             <div className="bg-white rounded-lg shadow-md p-6">
               <h3 className="text-xl font-semibold mb-2 text-black">vs. Northwest High</h3>
-              <p className="text-gray-600">Friday, September 22, 2023</p>
-              <p className="text-gray-600">7:00 PM @ Rossview Stadium</p>
+              <p className="text-slate-600">Friday, September 22, 2023</p>
+              <p className="text-slate-600">7:00 PM @ Rossview Stadium</p>
             </div>
             <div className="bg-white rounded-lg shadow-md p-6">
               <h3 className="text-xl font-semibold mb-2 text-black">vs. West Creek High</h3>
-              <p className="text-gray-600">Friday, September 29, 2023</p>
-              <p className="text-gray-600">7:00 PM @ Rossview Stadium</p>
+              <p className="text-slate-600">Friday, September 29, 2023</p>
+              <p className="text-slate-600">7:00 PM @ Rossview Stadium</p>
             </div>
           </div>
         </section>
 
         {/* Team News */}
         <section className="mb-12">
-          <h2 className="text-3xl font-bold mb-6 text-gray-800">Team News</h2>
+          <h2 className="text-3xl font-bold mb-6 text-slate-800">Team News</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="bg-white rounded-lg shadow-md overflow-hidden">
               <div className="relative h-48 w-full">
@@ -62,7 +62,7 @@ export default function Home() {
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2 text-black">Season Opener Victory</h3>
-                <p className="text-gray-600 mb-4">The Hawks started their season with an impressive win against...</p>
+                <p className="text-slate-600 mb-4">The Hawks started their season with an impressive win against...</p>
                 <a href="/news/season-opener" className="text-blue-600 hover:text-blue-800">
                   Read More →
                 </a>
@@ -79,7 +79,7 @@ export default function Home() {
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2 text-black">New Coaching Staff Announced</h3>
-                <p className="text-gray-600 mb-4">Rossview High School welcomes new additions to the coaching staff...</p>
+                <p className="text-slate-600 mb-4">Rossview High School welcomes new additions to the coaching staff...</p>
                 <a href="/news/coaching-staff" className="text-blue-600 hover:text-blue-800">
                   Read More →
                 </a>
@@ -90,15 +90,15 @@ export default function Home() {
 
         {/* Quick Links */}
         <section className="mb-12">
-          <h2 className="text-3xl font-bold mb-6 text-gray-800">Quick Links</h2>
+          <h2 className="text-3xl font-bold mb-6 text-slate-800">Quick Links</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <a href="/schedule" className="bg-red-600 text-white rounded-lg p-6 text-center hover:bg-blue-700 transition-colors">
+            <a href="/schedule" className="bg-red-600 text-white rounded-lg p-6 text-center hover:bg-red-700 transition-colors">
               <h3 className="text-xl font-semibold">Full Schedule</h3>
             </a>
-            <a href="/roster" className="bg-red-600 text-white rounded-lg p-6 text-center hover:bg-blue-700 transition-colors">
+            <a href="/roster" className="bg-red-600 text-white rounded-lg p-6 text-center hover:bg-red-700 transition-colors">
               <h3 className="text-xl font-semibold">Team Roster</h3>
             </a>
-            <a href="/tickets" className="bg-red-600 text-white rounded-lg p-6 text-center hover:bg-blue-700 transition-colors">
+            <a href="/tickets" className="bg-red-600 text-white rounded-lg p-6 text-center hover:bg-red-700 transition-colors">
               <h3 className="text-xl font-semibold">Buy Tickets</h3>
             </a>
           </div>
@@ -106,7 +106,7 @@ export default function Home() {
       </main>
 
       {/* Footer */}
-      <footer className="bg-gray-800 text-white py-8">
+      <footer className="bg-slate-800 text-white py-8">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
@@ -134,7 +134,7 @@ export default function Home() {
               </ul>
             </div>
           </div>
-          <div className="mt-8 text-center text-gray-400">
+          <div className="mt-8 text-center text-slate-400">
             <p>&copy; {new Date().getFullYear()} Rossview High School Football. All rights reserved.</p>
           </div>
         </div>
