@@ -1,11 +1,14 @@
-import { Link } from "react-router-dom";
+import React from "react";
 
 const Navbar = () => {
   return (
-    <nav>
-      <Link to="/">Home</Link>
-      <Link to="/about">About</Link>
-      <Link to="/contact">Contact</Link>
+    <nav className="navbar">
+      <h1>Utah Utes Football</h1>
+      <ul>
+        <li><a href="#schedule">Schedule</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#news">News</a></li>
+      </ul>
     </nav>
   );
 };

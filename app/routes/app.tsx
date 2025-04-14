@@ -4,7 +4,7 @@ import About from "./about";
 import Contact from "./contact";
 import Navbar from "../components/navbar";
 
-const App = () => {
+export default function App() {
   return (
     <BrowserRouter>
       <Navbar />
@@ -16,5 +16,3 @@ const App = () => {
     </BrowserRouter>
   );
 };
-
-export default App;

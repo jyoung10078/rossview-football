@@ -13,3 +13,20 @@ body {
     color-scheme: dark;
   }
 }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: crimson;
+  padding: 1rem;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+}
